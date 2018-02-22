@@ -1,23 +1,22 @@
 {
-    "name": "fluffy/assistance",
-    "description": "Fluffy Assistance component",
-    "type": "library",
-	"license": "MIT",
-
-    "authors": [
-        {
-            "name": "Adam 'Savander' Jaworski",
-            "email": "savander.pl@gmail.com"
-        }
-    ],
-	"require": {
-        "php": "^7.1.3",
-        "psr/log": "^1.0"
-    },
-	"autoload": {
-        "psr-4": {
-            "Fluffy\\Assistance\\": "src/"
-        }
-    },
-    "minimum-stability": "dev"
+  "name": "fluffy/assistance",
+  "description": "Fluffy Assistance component",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adam 'Savander' Jaworski",
+      "email": "savander.pl@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "psr/log": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fluffy\\Assistance\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
 }
